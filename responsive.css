@@ -26,6 +26,7 @@
     .morebuttonblue{
         display: block;
         margin: 0 auto;
+        font-size: 12px;
     }
 }
 @media screen and (max-width: 450px){
@@ -105,6 +106,35 @@
     }
     .avaliablegamesh4{
         font-size: 20px;
+        margin: 25px 20px 0px 20px;
+    }
+}
+@media screen and (max-width: 457px){
+    .buttonabsolute1line{
+        font-size: 10px;
+        position: absolute;
+        right: 40px;
+    }
+    .buttonabsolute{
+        font-size: 10px;
+        position: absolute;
+        right: 40px;
+    }
+}
+/* ! VRBackground */
+@media screen and (max-width:1135px){
+    .vrbackground{
+        height: 400px;
+        padding-top: 200px;
+    }
+}
+@media screen and (max-width:800px){
+    .vrbackground{
+        height: 300px;
+        padding-top: 150px;
+    }
+    .morebuttonvr{
+        font-size: 15px;
     }
 }
 /* ! PLaystationplus */
